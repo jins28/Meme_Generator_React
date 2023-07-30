@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#ffff;
+    
+  }
+  .App {
+    font-family: sans-serif;
+    height: 100vh;
+  }
+  header{
+    width:100%;
+    display:flex;
+    align-items: center;
+    height:75px;
+    background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+    padding:25px 30px;
+  }
+  img{
+    width: 33px;
+    height: 27px;
+    margin-right: 7px;
+    
+  }
+  .logo-title {
+    display: flex;
+    margin-right: auto;
+  }
+  .title{
+    
+    font-weight: 700;
+    font-size: 21px;
+   
+}
+  
+  .course {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  .input-text{
+    width:280px;
+    height:45px;
+    border-radius: 5px;
+    font-family: "Karla";
+    font-weight: 600;
+    color: #0d0d0d;
+    border: 1px solid #d5d4d8;
+    padding: 15px;
+
+  }
+  .form-class{
+    display:flex;
+    justify-content:center;
+    margin-top: 30px;;
+  }
+  .btn{
+    width:100%;
+    
+    font-family: "Karla";
+    font-weight: 600;
+    font-size: 16px;
+    text-align:center;
+    border-radius: 5px;
+    cursor: pointer;
+    padding:13px;
+    background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .input-container {
+    display: flex;
+    gap: 30px;
+  }
+  .upload-meme {
+    color: #000;
+    font-family: "Karla";
+    font-weight: 700;
+  }
+  .image {
+    width:30%;
+    margin:auto;
+  
+    
+  }
+  .buttons{
+    display:flex;
+    justify-content: space-between;
+    
+  }
+  .btn1{
+    border-radius: 5px;
+    cursor: pointer;
+    padding:13px;
+    background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  }
+.memeImg{
+    height: 500px; 
+    width : 500px ;
+    margin-top:30px;
+    
+}
+.top{
+  width:300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ /*background-color: rgba(255, 255, 255, 0.7);*/
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  overflow-wrap: break-word;
+}
+.bottom{
+  position: absolute;
+  width:300px;
+  left: 50%;
+  transform: translate(-49%, -178%);
+  /*background-color: rgba(255, 255, 255, 0.7);*/
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  overflow-wrap: break-word;
+}
